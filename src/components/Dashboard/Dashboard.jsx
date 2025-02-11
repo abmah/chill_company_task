@@ -1,4 +1,3 @@
-
 import Score from '../Charts/Score';
 import DetectionDetails from '../DetectionDetails/DetectionDetails';
 import HistoryList from '../HistoryList/HistoryList';
@@ -13,7 +12,7 @@ const Dashboard = () => {
     <main className="flex w-full bg-gray-50 py-4 justify-center">
 
       <article className="w-full md:w-[90%] mx-auto p-4 flex">
-        <aside className="mr-6">
+        <aside className="xl:mr-6">
           <Sidebar />
         </aside>
         <div className="flex-1">
